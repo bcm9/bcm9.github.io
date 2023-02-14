@@ -7,13 +7,11 @@ html, body {
     padding: 0px; */
     color: rgb(32, 32, 32);
     font-family: 'Libre Franklin', sans-serif;
-    font-family: 'Crimson Text', serif;
-    font-family: 'Martel', serif;
-    width: 800px;
+    width: 850px;
     margin: auto;
-    margin-top: 20px;
+    margin-top: 15px;
     margin-bottom: 100px;
-    background-color: #ffffff;
+    /* background: linear-gradient(to bottom, rgba(300, 300, 300, 1) 90%, rgb(204, 81, 10) 100%); */
   } 
   .name {
     margin-bottom: 2px;
@@ -21,15 +19,15 @@ html, body {
 
   /* PARAGRAPH TEXT SIZE */
   div.p1 {
-    font-size: 17px;
+    font-size: 14px;
     line-height: 1.5;
   }
 
   div.p2 {
-    font-size: 15px;
+    font-size: 13px;
     line-height: 1.5;
   }
-  
+
 /* _______________________________________________________________________________________________  
 /* HEADER STYLING */
 /* Style the header with a grey background and some padding */
@@ -41,15 +39,22 @@ html, body {
   
   /* Style the header links */
   .header a {
-    float: left;
+    float: center;
     color: rgb(0, 0, 0);
     text-align: left;
-    padding: 5px;
-    font-size: 18px; 
-    line-height: 5px;
-    border-radius: 8px;
+    padding: 3px;
+    text-decoration: none;
+    font-size: 16px; 
+    line-height: 20px;
+    border-radius: 4px;
     font-weight: normal;
   }
+  
+  /* Change the background color on mouse-over */
+  /* .header a:hover {
+    background-color: rgba(214, 214, 214, 0.719);
+    color: black;
+  } */
   
   /* Style the active/current link*/
   .header a.active {
@@ -70,24 +75,10 @@ html, body {
       text-align: left;
     }
     .header-right {
-      float: left;
+      float: none;
     }
   }
-/* _______________________________________________________________________________________________  
-  /* heading styling  */
-  h2 {
-    color: #cc0000;
-    font-size: 40px;
-    font-weight: normal;
-    line-height: 10px;
-  }
-  h3 {
-    color: #cc0000;
-  }
-  h4 {
-    color: #cc0000;
-    line-height: 5px;
-  }
+
 /* _________________________________________________________________________________________________  
 /* LINK DECORATION */
 /* unvisited link */
@@ -98,13 +89,11 @@ a:link {
 /* visited link */
 a:visited {
   color: rgba(23, 108, 134, 0.61);
-  color: #990000
 }
 
 /* mouse over link */
 a:hover {
   color: rgb(45, 189, 233);
-  color: #cc0000
 }
 
 /* selected link */
@@ -121,4 +110,20 @@ a:active {
   
   a:hover {
     text-decoration: none;
+  }
+  
+  /* _______________________________________________________________________________________________  
+  /* heading styling  */
+  h2 {
+    color: rgb(32, 32, 32);
+    font-size: 35px;
+    font-weight: normal;
+    line-height: 10px;
+  }
+  h3 {
+    color: rgb(0, 0, 0);
+  }
+  h4 {
+    color: rgb(0, 0, 0);
+    line-height: 5px;
   }
