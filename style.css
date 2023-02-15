@@ -103,13 +103,13 @@ a:active {
   /* _______________________________________________________________________________________________  
   /* heading styling  */
   h2 {
-    color: rgb(32, 32, 32);
+    color: rgb(0, 0, 0);
     font-size: 35px;
     font-weight: normal;
     line-height: 10px;
   }
   h3 {
-    color: rgb(0, 0, 0);
+    color: rgba(23, 108, 134, 1.0);
   }
   h4 {
     color: rgb(0, 0, 0);
